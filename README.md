@@ -11,6 +11,27 @@ int main()
   
   printf("%d + %d = %d\n", 10, 20,30);
   printf("%d - %d = %d\n", a,b,c);
+
+  
+  return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+  int a ;
+  int b ;
+  int c = 0;
+  scanf("%d %d", &a, &b);
+  
+  printf("%d + %d = %d\n", a, b,c);
+  c = a - b;
+  printf("%d - %d = %d\n",  a, b,c);
+  c = a * b;
+  printf("%d * %d = %d\n", a, b,c);
+  c = a / b;
+  printf("%d / %d = %d\n", a, b,c);
   
   
   

@@ -37,7 +37,29 @@ int main()
   
   
   return 0;
+
 }
+
+
+#include <stdio.h>
+
+int main()
+{
+  int a ;
+  int b;
+  printf ("두 수를 입력하시오.");
+  scanf("%d %d ", &a ,&b);
+
+  printf("%d + %d = %d\n", a,b , a+b);
+  printf("%d * %d= %d\n", a,b, a*b);
+ 
+  
+  
+  
+  
+  return 0;
+}
+
 
 %d -> 정수
 %f -> 실수 (flat)
